@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            transition:transform 5s,width 2s;
+            transition-timing-function:ease;
+                   /* linear,ease-in,ease-out */
+            transition-delay: 3s;
+            
+
+            /* transition:width 3s */
+        }
+        img:hover{
+            transform: rotate(360deg);
+            width: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="resturant.jpg" alt="image">
+</body>
+</html>

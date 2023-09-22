@@ -1,0 +1,28 @@
+body{
+    height: 2000px;
+}
+
+.first{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+/* .second{
+    position:absolute;
+    top:0;
+    left: 500px;
+    background-color:red;
+    width: 500px;
+    height: 500px;
+}
+.third{
+    position:sticky;
+    top:0;
+    left: 15pxpx;
+    background-color:green;
+    width: 500px;
+    height: 500px;
+} */

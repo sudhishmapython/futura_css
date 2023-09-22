@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            /* grid-template-rows: 1fr 2fr; */
+            /* grid-gap: 10px;
+            grid-row-gap: 10px;
+            grid-column-gap: 10px;
+            justify-content: space-between;
+            align-items: self-end; */
+            grid-template-areas: 'one two two two'
+            'one three three four'
+            'one three three four'
+            'one five five five'
+            'one six six seven'
+            'eight eight eight eight'
+           
+            ;
+
+
+        }
+        .item{
+            background-color: darkgreen;
+            border: 1px solid red;
+            color: azure;
+
+        }
+        .item1{
+            grid-area: one;
+
+        }
+        .item2{
+            grid-area: two;
+        }
+        .item3{
+            grid-area: three;
+        }
+        .item4{
+            grid-area: four;
+            
+        }
+        .item5{
+            grid-area: five;
+        }
+        .item6{
+            grid-area: six;
+
+        }
+        .item7{
+            grid-area: seven;
+
+        }
+        .item8{
+            grid-area: eight;
+
+        }
+        /* .item9{
+            grid-area: nine;
+
+        } */
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">div1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolores quod at dolor ad eius corrupti, deserunt reprehenderit autem optio cum et hic sapiente delectus!
+        </div>
+        <div class="item item2">div 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+        </div>
+        <div class="item item3">div 3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo omnis obcaecati perspiciatis, rerum accusantium dolorum ab itaque eaque porro enim aliquid tempora aspernatur, reprehenderit sint?
+            </div>
+            <div class="item item4">div 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+            <div class="item item5">div 5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+            <div class="item item6">div 6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+            <div class="item item7">div 7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+            <div class="item item8">div 8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+            <!-- <div class="item item9">div 9 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div> -->
+    </div>
+</body>
+</html>
