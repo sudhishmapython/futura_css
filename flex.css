@@ -1,21 +1,21 @@
 .parent{
     height: 500px;
     background-color: rgb(128, 213, 128);
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column; */
-    /* flex-flow: column wrap; */
-    /* justify-content: space-around */
+     display: flex; 
+     flex-wrap: wrap; 
+    /* flex-direction: row-reverse;  */
+       /* flex-direction: row-reverse;   */
+      /* flex-direction: column;  
+    flex-flow: column wrap;     */
+    /* justify-content: space-around; */
 /* ,space-around,space-between */
 
-    /* align-items: flex-start; */
+    /* align-items: center; */
     /* align-items:center; */
-    /* align-content: flex-end; */
+    /* align-content: center; */
     /* gap: 10px; */
+    row-gap: 10px;
     /* row-gap: 10px; */
-    column-gap: 10px;
 
 }
 .child{
@@ -24,18 +24,15 @@
     padding: 50px;
     color: antiquewhite;
     
-    /* flex-grow: 4; */
+    
 }
 .first{
-    /* flex-grow: 2; */
-    /* flex-shrink: 3; */
+    
 }
 .third{
-    /* order: -5; */
-    /* flex-basis: 20%; */
- /* flex-grow: 1; */
+   
  
 }
 .second{
-    /* align-self: flex-end; */
+   
 }

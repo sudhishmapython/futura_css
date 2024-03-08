@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            color: red;
-        }
-        @media all and (orientation:landscape){
-            body{
-                color: blue;
-            }
-        }
-    </style>
+ <style>
+    /* styles.css */
+/* Mobile-first styles */
+/* Styles for small screens (mobile) */
+.column {
+  width: 100%;
+}
+
+/* Add media query for larger screens */
+@media (min-width: 768px) {
+  /* CSS rules for screens with a minimum width of 768px (tablets and above) */
+  .column {
+    width: 50%;
+  }
+
+  
+}
+
+ </style>
+
+
 </head>
 <body>
-    <h1>welcome</h1>
-    <h1>welcome futura</h1>
+  <div class="column">Column 1</div>
+  <div class="column">Column 2</div>
 </body>
 </html>
