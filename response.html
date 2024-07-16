@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Images</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+
+  .gallery img {
+    /* max-width: 100%;
+    height: auto; */
+    margin: 10px;
+  }
+
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .gallery img {
+      max-width: calc(50% - 20px);
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Responsive Images Gallery</h1>
+</header>
+
+<section class="gallery">
+  <img src="underwater.jpeg" alt="Image 1">
+  <img src="backgrod.jpg" alt="Image 2">
+  <img src="background.jpg" alt="Image 3">
+  <img src="resturant.jpg" alt="Image 4">
+  
+</section>
+
+<footer>
+  <p>&copy; 2024 - All rights reserved</p>
+</footer>
+
+</body>
+</html>

@@ -2,14 +2,14 @@
     height: 100vh;
     background-color: aquamarine;
     display: grid;
-    grid-template-columns:2fr 2fr 2fr;
-      /* grid-template-rows: 1fr 2fr 1fr;  */
+    grid-template-columns:1fr 1fr 1fr;
+      grid-template-rows: 1fr 2fr 1fr; 
       /* grid-gap: 10px; */
       /* grid-row-gap: 10px; */
     grid-template-areas:"one one one"
     "two three five"
     
-     "four four five";
+     "four four four";
 }
 .item{
     
