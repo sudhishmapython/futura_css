@@ -9,40 +9,47 @@
             width:250px;
             height: 250px;
             background-color: chartreuse;
-            position: absolute;
+            position: relative;
 
-               animation-name: move;      
-             animation-duration: 2s;     
-             animation-delay: 2s; 
-            animation-iteration-count: infinite;
-            /* animation-direction: reverse; */
-                  /* reverse */
-            animation-timing-function: ease-in;
+
+             /* animation-name: move;         
+             animation-duration: 2s;       */
+             /* animation-delay: 2s;   */
+             /* animation-iteration-count: infinite;      
+             animation-direction: alternate;      */
+                  /* reverse,alternate */
+            /* animation-timing-function: ease-out;  */
                 /* linear,ease-in ,ease-out*/
 
 
 
                 /* shorthand */
-                /* animation: move 2s ; */
+                animation: move 2s ;
            
         }
         @keyframes move{
            0%{
                 left: 0px;
                 top: 0px;
-                /* border-radius:0px ; */
+                
                }
+   
+            50%
+            {
+                left: 300px;
+                top: 100px;
+            }
             100%{
             left: 600px;
             top:60px;
-            /* border-radius:150px ;
-            text-align: center; */
+            border-radius:150px ;
+          
 
             }
         }
     </style>
 </head>
 <body>
-    <div>Lorem, </div>
+    <div> </div>
 </body>
 </html>

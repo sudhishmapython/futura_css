@@ -1,46 +1,43 @@
-.container{
+.container {
     height: 100vh;
     background-color: aquamarine;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-      grid-template-rows: 1fr 2fr 1fr; 
-      /* grid-gap: 10px; */
-      /* grid-row-gap: 10px; */
-    grid-template-areas:"one one one"
-    "two three five"
-    
-     "four four four";
+    grid-template-columns:repeat(3,1fr);
+     /* repeat(1fr); */
+     /* gap: 50px; */
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+        "one one one"
+        "two three five"
+        "four four four";
 }
-.item{
-    
+
+.item {
     border: 1px solid red;
     color: antiquewhite;
-    
-    
 }
-.item1{
-   
+
+.item1 {
     background-color: forestgreen;
-    /* justify-self: center; */
     grid-area: one;
 }
-.item2{
-   
-    background-color: rgb(139, 34, 71);
+
+.item2 {
+    background-color: rgb(139, 34, 71); /* mejada */
     grid-area: two;
 }
-.item3{
-    
-    background-color: rgb(215, 247, 4);
+
+.item3 {
+    background-color: rgb(215, 247, 4); /* yellow */
     grid-area: three;
 }
-.item4{
-   
+
+.item4 {
     background-color: rgb(169, 10, 10);
     grid-area: four;
 }
-.item5{
-    
+
+.item5 {
     background-color: rgb(77, 23, 177);
     grid-area: five;
 }

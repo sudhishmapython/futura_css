@@ -5,27 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p {
-  animation-duration: 3s;
-  animation-name: slidein;
+/* @keyframes moveRight {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px); }
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
+.box {
+    width:250px;
+            height: 250px;
+            background-color: chartreuse;
+            position: absolute;
+    animation: moveRight 2s infinite alternate;
+} */
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+
+@keyframes advancedMove {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        background-color: rgb(38, 185, 235);
+    }
+    25% {
+        transform: translateX(200px) rotate(45deg);
+        background-color: rgb(58, 224, 58);
+    }
+    50% {
+        transform: translateX(500px) rotate(90deg);
+        background-color: rgb(231, 89, 89);
+    }
+    75% {
+        transform: translateX(200px) rotate(145deg);
+        background-color: rgb(216, 216, 53);
+    }
+    100% {
+        transform: translateX(0) rotate(180deg);
+        background-color: rgb(53, 170, 209);
+    }
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px; 
+    animation: advancedMove 4s infinite;
+    border-radius: 50%;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
+}
+
+
     </style>
 </head>
 <body>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem qui cupiditate nam earum, aut, molestiae doloribus ut eum eius laboriosam voluptatum inventore ab. Id, officiis ullam. Deleniti consequuntur quos modi sed quidem quia provident deserunt, fuga cum, iusto hic, vel voluptates neque! Quia quas reprehenderit esse similique, totam quaerat.
-      </p>
+
+<!-- <div class="box"></div> -->
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+<div class="box">Box 4</div>
+<div class="box">Box 5</div>
+
+
 </body>
 </html>

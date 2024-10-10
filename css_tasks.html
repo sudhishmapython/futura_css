@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition with JS Property Change</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      transition: width 1s ease, background-color 1s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box" id="box"></div>
+  <button onclick="changeBox()">Change Size</button>
+
+  <script>
+    function changeBox() {
+      const box = document.getElementById('box');
+      box.style.width = '400px';  // Change width
+      box.style.backgroundColor = 'green'; // Change background color
+    }
+  </script>
+
+</body>
+</html>

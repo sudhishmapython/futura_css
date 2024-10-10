@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button {
+            background-color: lightblue;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        /* hover */
+
+        button:hover {
+            background-color: darkblue;
+            color: white;
+        }
+
+        /* focus */
+
+        input {
+            padding: 5px;
+            border: 2px solid gray;
+        }
+
+        input:focus {
+            border-color: blue;
+            background-color: aquamarine;
+        }
+        /* active */
+
+        button:active {
+    background-color: rgb(0, 139, 46);
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* first child */
+
+li:last-child{
+            color: red;
+            font-weight: bold;
+        }
+        /* last child  */
+    </style>
+</head>
+<body>
+    <!-- hover -->
+    <button>Hover over me!</button>
+    <br>
+    <!-- focus -->
+    <input type="text" placeholder="Click to focus">
+ <a href="default.asp" target="_blank">This is a link</a>
+
+    <!-- first child -->
+
+
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+</body>
+</html>

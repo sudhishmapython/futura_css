@@ -3,11 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basic HTML Elements</title>
 </head>
 <body>
-    <marquee width="60%" direction="right" height="100px">
-        This is a sample scrolling text that has scrolls in the upper direction.
-        </marquee>
+    <!-- Main Heading and Introduction -->
+    <h1>Exploring HTML Elements</h1>
+    <p>HTML is used to create the structure of webpages. It includes various elements and tags to format and organize content.</p>
+    
+    <!-- Text Formatting -->
+    <p>This is an example of <b>bold</b> text, <i>italic</i> text, and <u>underlined</u> text.</p>
+    
+    <!-- Unordered List -->
+    <h2>Favorite Fruits</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Grape</li>
+    </ul>
+    
+    <!-- Table -->
+    <h2>Favorite Fruits Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fruit</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>Red</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>Yellow</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!-- Form -->
+    <h2>Subscribe Form</h2>
+    <form>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label>Subscribe:</label>
+        <input type="radio" id="subscribe" name="subscription" value="subscribe">
+        <label for="subscribe">Subscribe</label>
+        <input type="radio" id="no-subscribe" name="subscription" value="no-subscribe">
+        <label for="no-subscribe">Do Not Subscribe</label><br><br>
+        
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I agree to the terms</label><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <!-- Embedded Content -->
+    <h2>Embedded Content</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <!-- Div and Span -->
+    <h2>Using `<div>` and `<span>`</h2>
+    <div style="background-color: lightblue; padding: 10px;">
+        <span style="color: red;">Highlighted text inside a div with background color.</span>
+    </div>
 </body>
 </html>

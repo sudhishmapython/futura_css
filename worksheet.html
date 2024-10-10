@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+/<style>
+
+.container {
+    height: 100vh;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+     /* repeat(1fr); */
+     /* gap: 50px; */
+     grid-template-areas: "one one one" "two three five" "four four four";
+    
+}
+
+.item {
+    border: 1px solid red;
+    color: antiquewhite;
+}
+
+.item1 {
+    background-color: forestgreen;
+    grid-area: one;
+}
+
+.item2 {
+    background-color: rgb(139, 34, 71); /* mejada */
+    grid-area: two;
+}
+
+.item3 {
+    background-color: rgb(215, 247, 4); /* yellow */
+    grid-area: three;
+}
+
+.item4 {
+    background-color: rgb(169, 10, 10);
+    grid-area: four;
+}
+
+.item5 {
+    background-color: rgb(77, 23, 177);
+    grid-area: five;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">div1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolores quod at dolor ad eius corrupti, deserunt reprehenderit autem optio cum et hic sapiente delectus!
+        </div>
+        <div class="item item2">div 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+        </div>
+        <div class="item item3">div 3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo omnis obcaecati perspiciatis, rerum accusantium dolorum ab itaque eaque porro enim aliquid tempora aspernatur, reprehenderit sint?
+            </div>
+            <div class="item item4">div 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+            <div class="item item5">div 5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi rem sint minima, est velit doloremque dolore hic tempora consequuntur praesentium saepe impedit inventore mollitia.
+            </div>
+    </div>
+</body>
+</html>

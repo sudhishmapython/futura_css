@@ -4,7 +4,7 @@ body{
 
 .first{
     position:static;
-    top:0px;
+    top:10000000000px;
     left:0px;
     background-color: blue;
     width: 500px;

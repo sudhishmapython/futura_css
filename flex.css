@@ -2,20 +2,20 @@
     height: 500px;
     background-color: rgb(128, 213, 128);
     display: flex;  
-      flex-wrap: wrap;  
-    /* flex-direction: row-reverse;   */
-       /* flex-direction: row-reverse;  
-       flex-direction: column;    
-    flex-flow: column wrap;       */
+      flex-wrap: wrap;   
+    /* flex-direction:column-reverse;   */
+       /* flex-direction: row-reverse;  */
+       /* flex-direction: column;     */
+    
     /* justify-content: space-around; */
-/* ,space-around,space-between */
+/* ,space-around,space-evenly */
 
-    /* align-items: center; */
+    /* align-items:end; */
     /* align-items:center; */
-    /* align-content: center; */
+    /* align-content: start; */
     /* gap: 10px; */
-    /* column-gap: 10px; */
     /* row-gap: 10px; */
+    /* column-gap: 10px; */
 
 }
 .child{

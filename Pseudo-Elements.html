@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* ::before */
+        h1::before {
+            content: "TEXT ";
+            color: red;
+        }
+        /* ::after */
+
+        h3::after {
+            content: " (Read more...)";
+            color: green;
+        }
+        /* ::first-letter */
+
+        h2::first-letter { 
+            font-size: 2em;
+            font-weight: bold;
+            color: red;
+        }
+
+
+        /* ::first-line */
+
+
+        p::first-line {
+            font-weight: bold;
+            color: blue;
+            font-size: 1.5em;
+        }
+
+        /* ::selection  */
+
+       ::selection {
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Important Heading</h1>
+    <p>
+        This is the first line of the paragraph. <br>
+        The rest of the paragraph is styled differently from the first line.
+    </p>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>This is the first line of the paragraph. 
+        </h3>
+</body>
+</html>
