@@ -9,7 +9,11 @@
             cursor: pointer;
         }
 
-        
+         input {
+            padding: 5px;
+            border: 2px solid gray;
+        }
+
         /* hover */
 
         button:hover {
@@ -19,14 +23,10 @@
 
         /* focus */
 
-        input {
-            padding: 5px;
-            border: 2px solid gray;
-        }
-
+       
         input:focus {
             border-color: blue;
-            background-color: aquamarine;
+            background-color: rgb(9, 221, 150);
         }
         /* active */
 
@@ -46,11 +46,15 @@ a:visited {
 
 /* first child */
 
-li:last-child{
+/* li:last-child{
             color: red;
             font-weight: bold;
-        }
+        } */
         /* last child  */
+        li:nth-child(even)
+        {
+            color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -59,13 +63,18 @@ li:last-child{
     <br>
     <!-- focus -->
     <input type="text" placeholder="Click to focus">
- <a href="default.asp" target="_blank">This is a link</a>
+
+
+ <a href="transform.html" target="_blank">This is a link</a>
 
     <!-- first child -->
 
 
     <ul>
         <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+         <li>First item</li>
         <li>Second item</li>
         <li>Third item</li>
     </ul>

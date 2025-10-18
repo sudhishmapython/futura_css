@@ -11,8 +11,8 @@
             height: 100px;
             margin: auto;
             
-            transition:transform 2s,width 2s;
-             /* transition-timing-function:linear; */
+           transition: transform 2s,width 2s ;  
+             /* transition-timing-function:ease-out;    */
                    /* linear,ease-in,ease-out */
             /* transition-delay: 2s; */
             
@@ -22,6 +22,7 @@
         img:hover{
             transform: rotate(180deg);
             width: 200px;
+            
         }
        
     </style>
@@ -33,3 +34,38 @@
   
 </body>
 </html>
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Image Swap</title>
+    <style>
+        .image-container {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            background-image: url(resturant.jpg);
+            background-size: cover;
+            background-position: center;
+            transition: all 0.5s ease;
+        }
+
+        .image-container:hover {
+            background-image: url(underwater.jpeg);
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div>
+</body>
+</html> -->

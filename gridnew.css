@@ -2,14 +2,14 @@
     height: 100vh;
     background-color: aquamarine;
     display: grid;
-    grid-template-columns:repeat(3,1fr);
-     /* repeat(1fr); */
+    grid-template-columns:1fr 2fr 1fr;
+     /* repeat(2,1fr,2fr); */
      /* gap: 50px; */
-    grid-template-rows: 1fr 2fr 1fr;
+    /* grid-template-rows: 1fr 2fr 1fr; */
     grid-template-areas: 
         "one one one"
         "two three five"
-        "four four four";
+        "two four four ";
 }
 
 .item {
@@ -23,12 +23,12 @@
 }
 
 .item2 {
-    background-color: rgb(139, 34, 71); /* mejada */
+    background-color: rgb(139, 34, 71); 
     grid-area: two;
 }
 
 .item3 {
-    background-color: rgb(215, 247, 4); /* yellow */
+    background-color: rgb(215, 247, 4); 
     grid-area: three;
 }
 

@@ -1,0 +1,82 @@
+.logo{
+    width:100px;
+    /* height:90px; */
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    /* background-color: gray; */
+     position: sticky;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    /* text-align: center; */
+    margin-left:170px;
+    font-size: 20px;
+
+}
+li:hover{
+    background-color: rgb(167, 167, 167);
+   
+     /* width:95px; */
+    /* height: 28px;  */
+    border-radius:2px;
+}
+
+.profile{
+    width: 100px;
+    align-content: center;
+      gap: 10px;
+      margin-left: 200px;
+      /* background-color: gray; */
+   
+}
+.search{
+    align-content: center;
+}
+.search i:hover{
+    background-color: lightslategray;
+    height: 25px;
+    width: 25px;
+    /* overflow: hidden; */
+}
+
+.overlay{
+     height: 400px;
+            width: 400px;
+            /* background-color: red; */
+            position: absolute;
+            left:600px;
+            top: 100px;
+}
+
+
+
+.Explore ul li{
+    background-color: white;
+
+}
+.box{
+    display: flex;
+    gap: 10px;
+    background-color:white;
+    height: 300px;
+    align-items: center;
+   
+}
+.div1,.div2,.div3,.div4{
+    background-color: rgb(202, 202, 202);
+    width: 300px;
+    height:150px;
+    font-size:small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hero-img {
+  width: 100%;  /* scale down if too big */
+  height: auto;     /* keep natural proportion */
+  display: block;   /* removes small bottom gap */
+}

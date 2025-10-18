@@ -1,23 +1,23 @@
 .parent{
     height: 500px;
     background-color: rgb(128, 213, 128);
-    display: flex;  
-      flex-wrap: wrap;   
+     display: flex;  
+      flex-wrap: wrap;    
     /* flex-direction:column-reverse;   */
-       /* flex-direction: row-reverse;  */
+       /* flex-direction: column-reverse;  */
        /* flex-direction: column;     */
     
-    /* justify-content: space-around; */
+    /* justify-content:; */
 /* ,space-around,space-evenly */
 
     /* align-items:end; */
     /* align-items:center; */
-    /* align-content: start; */
+    /* align-content: center; */
     /* gap: 10px; */
     /* row-gap: 10px; */
     /* column-gap: 10px; */
 
-}
+} 
 .child{
     background-color: forestgreen;
     border: 1px solid ;

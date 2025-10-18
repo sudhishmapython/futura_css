@@ -3,12 +3,13 @@ body{
 }
 
 .first{
-    position:static;
-    top:10000000000px;
-    left:0px;
+    position: static;
+   left:100000000000000000000000px;
+   top:0px; 
     background-color: blue;
     width: 500px;
     height: 500px;
+    /* margin-left: 100px; */
 }
 /* .second{
     position:absolute;

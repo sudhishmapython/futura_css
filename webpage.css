@@ -19,7 +19,7 @@ li {
     color:white;
      background-size: 100% 100%;
     display: flex;
-    align-items: center; 
+    /* align-items: center;  */
    justify-content: right; 
   }
   body{margin: 0;}
